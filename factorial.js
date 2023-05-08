@@ -8,4 +8,4 @@ function factorial(num) {
     }
     
     return total;
-  }
+}
