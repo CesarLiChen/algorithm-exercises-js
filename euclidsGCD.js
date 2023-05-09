@@ -1,4 +1,4 @@
-// Euclid's algorithm for Greatest Common Divisonr (GCD).
+// Euclid's algorithm for Greatest Common Divisor (GCD).
 // Less efficient version.
 
 function euclids(n1, n2) {
