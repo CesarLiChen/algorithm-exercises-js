@@ -9,5 +9,10 @@ string are an ellipsis (...).
 // E.g. truncate("This is a string", 8); -> "This ..."
 
 function truncate(str, num) {
-    
+    if (str.length > num) {    	
+        const truncatedStr = str.substring(0, num - 3) + "...";
+       	return truncatedStr;
+    } else {
+    	return str;
+    }
 }
