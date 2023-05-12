@@ -6,8 +6,8 @@
 
 function confirmEnding(str, target) {
 
-    // First solution.
-    return str.charAt(str.length - 1) === target ? true : false;
+    // First solution. Incorrect, turns out 'target' can be a word too.
+    // return str.charAt(str.length - 1) === target;
 
-    //return str.endsWith(target); // Even easier solution
+    return str.endsWith(target); // Even easier solution
 }
