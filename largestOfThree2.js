@@ -5,6 +5,13 @@
 // This version will try and use JS's .map, and .reduce
 // methods for arrays.
 
-function largestOfThree2(arr) {
+function largestOfThree(arr) {
     
+    const resultArr = arr.map(
+        subarray => subarray.reduce(
+        	(a, b) => Math.max(a, b)
+        )
+    );
+
+    return resultArr;
 }
